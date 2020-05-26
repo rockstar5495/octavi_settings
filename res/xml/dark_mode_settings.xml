@@ -75,4 +75,8 @@
         android:defaultValue="0"
         android:dependency="dark_ui_activated" />
 
+    <com.octavi.support.preference.OverlaySwitchPreference
+        android:key="com.android.dark_bg"
+        android:title="@string/black_bg_title"
+        android:summary="@string/black_bg_summary" />
 </PreferenceScreen>
