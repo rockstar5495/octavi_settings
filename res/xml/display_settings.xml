@@ -138,6 +138,13 @@
             android:summary="@string/display_white_balance_summary"
             settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController"/>
 
+        <Preference
+            android:key="display_cutout_force_fullscreen_settings"
+            android:title="@string/display_cutout_force_fullscreen_title"
+            android:summary="@string/display_cutout_force_fullscreen_summary"
+            android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+            settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
+
         <ListPreference
     	    android:key="min_refresh_rate"
             android:title="@string/min_refresh_rate_title"
