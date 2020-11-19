@@ -95,4 +95,7 @@
     <!-- Octavi Lab -->
     <string name="octavi_lab_dash_title">Octavi Lab</string>
     <string name="octavi_lab_summary">Customization Laboratory</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>
