@@ -297,4 +297,11 @@
     <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
     <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
     <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
+
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">Disabled</string>
 </resources>
