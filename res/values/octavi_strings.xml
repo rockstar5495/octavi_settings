@@ -163,4 +163,8 @@
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
 
+    <!-- Hide apps -->
+    <string name="hide">Hide</string>
+    <string name="unhide">Unhide</string>
+
 </resources>
