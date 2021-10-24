@@ -44,7 +44,17 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java",
+	   "src/**/*.kt",
+           "OctaviLab/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.octavi.lab"],
+
+    resource_dirs: [
+        "res",
+        "OctaviLab/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -77,6 +87,7 @@ android_library {
         "lottie",
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
+        "kotlin-stdlib",
     ],
 
     libs: [
@@ -84,6 +95,7 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
+
 }
 
 platform_compat_config {
