@@ -267,4 +267,7 @@
     <string name="custom_timeout_summary_30mins">30 minutes</string>
     <string name="custom_timeout_summary_1hour">1 hour</string>
 
+    <!-- Game space -->
+    <string name="game_space_title">Game space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
