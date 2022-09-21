@@ -52,10 +52,6 @@
     <string name="octavi_maintainer">Octavi maintainer</string>
     <string name="octavi_maintainer_summary">Unknown</string>
 
-     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
-    
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
