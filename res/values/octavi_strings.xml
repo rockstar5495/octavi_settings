@@ -50,7 +50,6 @@
 
     <!-- Octavi Maintainer -->
     <string name="octavi_maintainer">Octavi maintainer</string>
-    <string name="octavi_maintainer_summary">Unknown</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
