@@ -4573,6 +4573,12 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.octavi.lab.security.applock.AppLockSubSettings"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.android.settings.applock"
+            android:launchMode="singleTask" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
