@@ -173,4 +173,9 @@
     <string name="unhide_app_desc">If you unhide this app, it will be visible to Android and other apps again.</string>
     <string name="hide_app_desc">If you hide this app, it will not be visible to Android and other apps, and they may no longer function as intended. Keep in mind, hiding an app preserves it data. By hiding, you turn this app off and hide it on your device.</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_clear" translatable="false">@string/proxy_clear_text</string>
+
 </resources>
