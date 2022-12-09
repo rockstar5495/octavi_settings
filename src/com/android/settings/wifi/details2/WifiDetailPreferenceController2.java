@@ -719,11 +719,6 @@ public class WifiDetailPreferenceController2 extends AbstractPreferenceControlle
                         SubscriptionUtil.getUniqueSubscriptionDisplayName(info, mContext));
                 return;
             }
-
-            if (firstCarrierIdMatchedDisplayName != null) {
-                mEapSimSubscriptionPref.setSummary(firstCarrierIdMatchedDisplayName);
-                return;
-            }
         }
 
         if (config.carrierId == UNKNOWN_CARRIER_ID) {

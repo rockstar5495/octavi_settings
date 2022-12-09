@@ -98,7 +98,7 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase implements
             mIllustrationLottie = findViewById(R.id.illustration_lottie);
             AccessibilityManager am = getSystemService(AccessibilityManager.class);
             if (am.isEnabled()) {
-                lottieAnimationView.setAnimation(R.raw.udfps_edu_a11y_lottie);
+                mIllustrationLottie.setAnimation(R.raw.udfps_edu_a11y_lottie);
             }
 
         } else {
