@@ -4544,6 +4544,8 @@
             <intent-filter>
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                       android:value="@string/menu_key_octavi"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.octavi.lab.OctaviLab" />
         </activity>

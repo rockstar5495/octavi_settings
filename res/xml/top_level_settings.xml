@@ -26,7 +26,8 @@
         android:summary="@string/octavi_lab_summary"
         android:icon="@drawable/ic_settings_octavi"
         android:order="-160"
-        android:fragment="com.octavi.lab.OctaviLab"/>
+        android:fragment="com.octavi.lab.OctaviLab"
+        settings:highlightableMenuKey="@string/menu_key_octavi"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
