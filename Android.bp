@@ -106,6 +106,7 @@ android_library {
         "faceunlock_framework",
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
+        "SystemUIUnfoldLib",
     ],
 
     libs: [
