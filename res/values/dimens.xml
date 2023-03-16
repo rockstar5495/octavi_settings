@@ -513,4 +513,7 @@
     <dimen name="qrcode_icon_size">27dp</dimen>
     <!-- Margin for SD card setup completion Image -->
     <dimen name="setup_completion_margin_top">88dp</dimen>
+
+    <!-- circle avatar size dimensions-->
+    <dimen name="circle_avatar_size">40dp</dimen>
 </resources>
