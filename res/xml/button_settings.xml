@@ -10,7 +10,7 @@
         android:summary="@string/disable_navkeys_summary"
         android:defaultValue="false" />
 
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+    <com.octavi.support.preference.SecureSettingSwitchPreference
         android:key="swap_capacitive_keys"
         android:title="@string/swap_capacitive_keys_title"
         android:summary="@string/swap_capacitive_keys_summary"
@@ -26,7 +26,7 @@
         android:key="home_key"
         android:title="@string/hardware_keys_home_key_title" >
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.octavi.support.preference.SystemSettingSwitchPreference
             android:key="home_wake_screen"
             android:title="@string/button_wake_title"
             android:defaultValue="true" />
@@ -53,7 +53,7 @@
         android:key="back_key"
         android:title="@string/hardware_keys_back_key_title" >
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.octavi.support.preference.SystemSettingSwitchPreference
             android:key="back_wake_screen"
             android:title="@string/button_wake_title"
             android:defaultValue="false" />
@@ -72,7 +72,7 @@
         android:key="menu_key"
         android:title="@string/hardware_keys_menu_key_title" >
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.octavi.support.preference.SystemSettingSwitchPreference
             android:key="menu_wake_screen"
             android:title="@string/button_wake_title"
             android:defaultValue="false" />
@@ -99,7 +99,7 @@
         android:key="assist_key"
         android:title="@string/hardware_keys_assist_key_title" >
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.octavi.support.preference.SystemSettingSwitchPreference
             android:key="assist_wake_screen"
             android:title="@string/button_wake_title"
             android:defaultValue="false" />
@@ -126,7 +126,7 @@
         android:key="app_switch_key"
         android:title="@string/hardware_keys_appswitch_key_title" >
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.octavi.support.preference.SystemSettingSwitchPreference
             android:key="app_switch_wake_screen"
             android:title="@string/button_wake_title"
             android:defaultValue="false" />
@@ -153,18 +153,18 @@
         android:key="camera_key"
         android:title="@string/hardware_keys_camera_key_title">
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.octavi.support.preference.SystemSettingSwitchPreference
             android:key="camera_wake_screen"
             android:title="@string/button_wake_title"
             android:defaultValue="false" />
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.octavi.support.preference.SystemSettingSwitchPreference
             android:key="camera_sleep_on_release"
             android:title="@string/camera_sleep_on_release_title"
             android:summary="@string/camera_sleep_on_release_summary"
             android:defaultValue="false" />
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <com.octavi.support.preference.SystemSettingSwitchPreference
             android:key="camera_launch"
             android:title="@string/camera_launch_title"
             android:summary="@string/camera_launch_summary"
@@ -176,13 +176,13 @@
         android:key="others_settings_category"
         android:title="@string/others_settings_title" >
 
-        <com.android.settings.custom.preference.RemotePreference
+        <com.octavi.support.preference.RemotePreference
             android:key="additional_buttons"
             android:title="@string/additional_buttons_title"
             settings:requiresAction="org.lineageos.settings.device.ADDITIONAL_BUTTONS_SETTINGS">
             <intent
                 android:action="org.lineageos.settings.device.ADDITIONAL_BUTTONS_SETTINGS" />
-        </com.android.settings.custom.preference.RemotePreference>
+        </com.octavi.support.preference.RemotePreference>
 
     </PreferenceCategory>
 </PreferenceScreen>
