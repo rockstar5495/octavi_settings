@@ -18,11 +18,11 @@ package com.android.settings.custom.buttons;
 import android.content.Context;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
-import com.android.internal.util.custom.NavbarUtils;
+import com.android.internal.util.octavi.NavbarUtils;
 
 import com.android.settings.Utils;
 
-import static com.android.internal.util.custom.hwkeys.DeviceKeysConstants.*;
+import static com.android.internal.util.octavi.hwkeys.DeviceKeysConstants.*;
 
 public class ButtonSettingsUtils {
     public static boolean isAvailable(Context context) {

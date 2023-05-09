@@ -18,7 +18,7 @@
 
 package com.android.settings.custom.buttons;
 
-import static com.android.internal.util.custom.hwkeys.DeviceKeysConstants.*;
+import static com.android.internal.util.octavi.hwkeys.DeviceKeysConstants.*;
 
 import android.app.ActivityManager;
 import android.content.ContentResolver;
@@ -47,7 +47,7 @@ import com.android.settings.custom.buttons.preference.*;
 import com.android.settings.custom.buttons.ButtonSettingsUtils;
 
 import com.android.internal.custom.hardware.LineageHardwareManager;
-import com.android.internal.util.custom.NavbarUtils;
+import com.android.internal.util.octavi.NavbarUtils;
 
 import java.util.List;
 import java.util.UUID;
@@ -453,7 +453,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CUSTOM_SETTINGS;
+        return MetricsEvent.OCTAVI;
     }
 
     @Override
